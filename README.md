@@ -5,6 +5,6 @@
 
 №|Название|Ссылка на код
 ---|:---|:---
-1.|Виселица|[hw1](https://github.com/https://github.com/victoriassazonova/proga_2018/tree/master/hw1)
+1.|Виселица|[hw1](https://github.com/victoriassazonova/proga_2018/tree/master/hw1)
 2.||
 3.||
