@@ -14,21 +14,22 @@
     <title>Вот мой сайт</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
+<style>
 .main { 
     background-color: #ffcc66; /* Orange */
     color: #ffffff;
     padding-left: 0px;
-	padding-right: 0px;
-	width: 100%;
-	position: fixed;
+    padding-right: 0px;
+    width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
     font-size: 20px;
 }
-.wid{width: 25%;}
+.wid {
+	width: 25%;
+}
 a:link {
   color: #EF7D55; 
   border-bottom: 1px dashed; 
@@ -40,8 +41,8 @@ a:visited {
 </head>
 
 <body>
-<div class="main">
-<center>
+ <div class="main">
+   <center>
 	<ul>
 		{% for name, url in urls.items() %}
 		<a href="{{ url }}">{{ name }}</a>
