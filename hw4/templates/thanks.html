@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Спасибо за ответ!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  
+.main{ 
+    background-color: #ffcc66; /* Orange */
+    color: #ffffff;
+    padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+a:link {
+  color: #EF7D55; 
+  border-bottom: 1px dashed; 
+  font-size: 20px
+}
+a:visited {
+  color: #EF7D55;
+}
+</style>
+</head>
+
+<body>
+<div class="main">
+<center>
+	<h1>Спасибо за ответ!</h1>
+	<p>Что еще есть на сайте?</p>
+	<ul>
+		{% for name, url in urls.items() %}
+		<a href="{{ url }}">{{ name }}</a>
+		{% endfor %}
+	</ul>
+<div class="image">
+        <label><img src="{{url_for('static', filename='dog.jpg')}}"
+					width="420" height="300"/></label>
+     </div>
+</center>
+</div>
+</body>
+
+</html>

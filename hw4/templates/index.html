@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Вот мой сайт</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.main { 
+    background-color: #ffcc66; /* Orange */
+    color: #ffffff;
+    padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.wid{width: 25%;}
+a:link {
+  color: #EF7D55; 
+  border-bottom: 1px dashed; 
+}
+a:visited {
+  color: #EF7D55;
+}
+</style>
+</head>
+
+<body>
+<div class="main">
+<center>
+	<ul>
+		{% for name, url in urls.items() %}
+		<a href="{{ url }}">{{ name }}</a>
+		{% endfor %}
+	</ul>
+    <div class="form-group">
+	<form>
+	    <div class="wid">
+        <b>Имя: <input required type="text" name="name" placeholder="Как Вас можно записать?"  class="form-control" maxlength="15"></b><br>
+        <b> Возраст: <input required type="text" name="age" placeholder="Сколько Вам лет?" class="form-control" maxlength="3"></b><br>
+        </div>
+        <p><b>Город:</b></p>
+        <p><input type="radio" name="city" value="m">Москва<Br>
+        <input type="radio" name="city" value="s">Санкт-Петербург<Br>
+        <input type="radio" name="city" value="d">Другой<Br>
+        <p><b>Как вы говорите?</b></p>
+        <p><input type="radio" name="q1" value="a11">Було[ч]ная<Br>
+        <input type="radio" name="q1" value="a12">Було[ш]ная<Br>
+        <p><b>Как вы говорите?</b></p>
+        <p><input type="radio" name="q2" value="a21">Яи[ч]ница<Br>
+        <input type="radio" name="q2" value="a22">Яи[ш]ница<Br>
+        <br>
+        <input type="submit" value="Отправить" class="btn btn-warning">
+	</form>
+    </div>
+</center>
+</div>
+</body>
+
+</html>
