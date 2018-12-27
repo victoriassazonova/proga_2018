@@ -96,6 +96,7 @@ def index():
                     list.append(row[2])
                     list.append(str2)
                     list.append("\n")
+        conn.close()
 
     return render_template('index.html', list=list)
 
