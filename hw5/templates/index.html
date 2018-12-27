@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Вот мой сайт</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.wid{width: 25%;}
+.main { 
+    background-color: #9753d2; /* Orange */
+    color: #ffffff;
+    padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+<div class="main" >
+<center>
+	<form class="form-group">
+        <p><b>Что вы хотите поискать?</b></p>
+        <div class="wid">
+        <input type="text" name="text" placeholder="Введите имя или возраст"  class="form-control" maxlength="50"></b><br>
+        </div>
+        <input type="submit" value="Искать" class="btn btn-info">
+        <h1>Результаты по вашему запросу:</h1>
+     	{% for i in list %}
+	    	<b>{{ i }}</b>
+	    	<br>
+	    	{% endfor %}
+    </form>
+    <nav aria-label="Последние новости">
+    <ul class="pagination">
+        <li><a href="#"> Предыдущая </a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#"> Следующая </a></li>
+    </ul>
+</nav>
+</center>
+</div>
+</body>
+
+</html>
