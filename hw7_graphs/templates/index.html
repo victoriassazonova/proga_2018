@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Вот мой сайт</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.wid{width: 25%;}
+.main { 
+    background-color: #FFE4B5; 
+    color: #8B4513;
+    padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+<div class="main" >
+<center>
+	<form class="form-group">
+        <p><b>Для какого слова строим семантическое поле?</b></p>
+        <div class="wid">
+        <input type="text" name="text" placeholder="Введите слово"  class="form-control" maxlength="50"></b><br>
+        </div>
+        <input type="submit" value="Искать" class="btn btn-info">
+        <p><b>Скачать ruscorpora_mystem_cbow_300_2_2015.bin.gz ?:</b></p>
+        <p><input type="checkbox" name="download_r" value="y">Да<Br>
+        <p><b>Пожалуйста, укажите часть речи, без этого вы не сможете ничего найти:</b></p>
+        <p><input type="checkbox" name="wordtype" value="s" checked>Существительное<Br>
+        <input type="checkbox" name="wordtype" value="a">Прилагательное<Br>
+        <input type="checkbox" name="wordtype" value="v">Глагол<Br>
+        <p><b>Программа довольно долго думает, потому что читает ruscorpora_mystem_cbow_300_2_2015.bin.gz</b></p>
+        <h1>Результаты по вашему запросу:</h1>
+	    	<b>{{first_word}}</b>
+	    	<h2>Самый центральный узел по degree_centrality:</h2>
+            <b>{{g_dc}}</b>
+            <h2>Самый центральный узел по betweenness_centrality:</h2>
+            <b>{{g_bc}}</b>
+            <h2>Самый центральный узел по closeness_centrality:</h2>
+            <b>{{ g_cc}}</b>
+            <h2>Самый центральный узел по eigenvector_centrality:</h2>
+            <b>{{g_ec}}</b>
+	    	<h2>Плотность графа:</h2>
+	    	<b>{{g_den}}</b>
+	    	<h2>Диаметр графа:</h2>
+	    	<b>{{g_dia}}</b>
+	    	<h2>Радиус графа:</h2>
+	    	<b>{{g_rad}}</b>
+	    	<h2>Коэффициент кластеризации:</h2>
+	    	<b>{{g_ac}}</b>
+	    	<h2>Коэффициент ассортативности:</h2>
+	    	<b>{{g_dpcc}}</b>
+	    	<h2>Количество ребер:</h2>
+	    	<b>{{n_o_e}}</b>
+	    	<h2>Количество узлов:</h2>
+	    	<b>{{n_o_n}}</b>
+	    	<h2>Сообщества:</h2>
+	    	<p>
+	    	{%for i in c%}
+              {{i}}
+               <br>
+             {%endfor%}
+             </p>
+            <h2>Граф</h2>
+            <h2>Цвет - сообщества, размер - количество связей</h2>
+            <img src="{{url_for('static', alt="Фотография 1", filename='image1.png')}}" /height="600" width="800">
+	    	
+    </form>
+
+</nav>
+</center>
+</div>
+</body>
+
+</html>

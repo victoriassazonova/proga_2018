@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>06/06/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="фея_S" label="фея_S" />
+      <node id="волшебница_S" label="волшебница_S" />
+      <node id="волшебник_S" label="волшебник_S" />
+      <node id="карабос_S" label="карабос_S" />
+      <node id="здоровьичка_S" label="здоровьичка_S" />
+      <node id="эльф_S" label="эльф_S" />
+      <node id="колдунья_S" label="колдунья_S" />
+      <node id="золушка_S" label="золушка_S" />
+      <node id="вольшебник_S" label="вольшебник_S" />
+      <node id="красавица_S" label="красавица_S" />
+      <node id="нимфа_S" label="нимфа_S" />
+      <node id="чиен_S" label="чиен_S" />
+      <node id="перель_S" label="перель_S" />
+      <node id="крестная_S" label="крестная_S" />
+      <node id="мелюзин_S" label="мелюзин_S" />
+      <node id="здоровьице_S" label="здоровьице_S" />
+      <node id="авушка_S" label="авушка_S" />
+      <node id="божинька_S" label="божинька_S" />
+      <node id="челэк_S" label="челэк_S" />
+      <node id="ведьма_S" label="ведьма_S" />
+      <node id="колдун_S" label="колдун_S" />
+      <node id="красотка_S" label="красотка_S" />
+      <node id="девушка_S" label="девушка_S" />
+      <node id="девица_S" label="девица_S" />
+      <node id="танцовщица_S" label="танцовщица_S" />
+      <node id="красавец_S" label="красавец_S" />
+      <node id="принцесса_S" label="принцесса_S" />
+      <node id="брюнетка_S" label="брюнетка_S" />
+      <node id="француженка_S" label="француженка_S" />
+      <node id="американка_S" label="американка_S" />
+      <node id="блондинка_S" label="блондинка_S" />
+      <node id="немка_S" label="немка_S" />
+      <node id="поэтесса_S" label="поэтесса_S" />
+      <node id="певица_S" label="певица_S" />
+      <node id="здоровьечко_S" label="здоровьечко_S" />
+      <node id="женщина_S" label="женщина_S" />
+      <node id="юноша_S" label="юноша_S" />
+      <node id="девочка_S" label="девочка_S" />
+      <node id="парень_S" label="парень_S" />
+      <node id="барышня_S" label="барышня_S" />
+      <node id="мальчик_S" label="мальчик_S" />
+      <node id="паренек_S" label="паренек_S" />
+      <node id="мужчина_S" label="мужчина_S" />
+      <node id="девчонка_S" label="девчонка_S" />
+      <node id="девчушка_S" label="девчушка_S" />
+      <node id="дама_S" label="дама_S" />
+      <node id="японка_S" label="японка_S" />
+      <node id="дамочка_S" label="дамочка_S" />
+      <node id="блондиночка_S" label="блондиночка_S" />
+      <node id="подросток_S" label="подросток_S" />
+      <node id="мальчуган_S" label="мальчуган_S" />
+      <node id="девка_S" label="девка_S" />
+      <node id="парнишка_S" label="парнишка_S" />
+      <node id="чукчанка_S" label="чукчанка_S" />
+      <node id="китаянка_S" label="китаянка_S" />
+      <node id="шатенка_S" label="шатенка_S" />
+      <node id="брюнеточка_S" label="брюнеточка_S" />
+      <node id="бабенка_S" label="бабенка_S" />
+      <node id="вдовушка_S" label="вдовушка_S" />
+      <node id="балерина_S" label="балерина_S" />
+      <node id="актриса_S" label="актриса_S" />
+      <node id="танцор_S" label="танцор_S" />
+      <node id="пианистка_S" label="пианистка_S" />
+      <node id="блондин_S" label="блондин_S" />
+      <node id="брюнет_S" label="брюнет_S" />
+      <node id="принц_S" label="принц_S" />
+      <node id="королева_S" label="королева_S" />
+      <node id="герцогиня_S" label="герцогиня_S" />
+      <node id="король_S" label="король_S" />
+      <node id="луиза_S" label="луиза_S" />
+      <node id="еврейка_S" label="еврейка_S" />
+      <node id="англичанка_S" label="англичанка_S" />
+      <node id="гречанка_S" label="гречанка_S" />
+      <node id="итальянка_S" label="итальянка_S" />
+      <node id="грузинка_S" label="грузинка_S" />
+      <node id="чешка_S" label="чешка_S" />
+      <node id="турчанка_S" label="турчанка_S" />
+      <node id="дочь_S" label="дочь_S" />
+      <node id="художница_S" label="художница_S" />
+      <node id="писательница_S" label="писательница_S" />
+      <node id="поэт_S" label="поэт_S" />
+      <node id="журналистка_S" label="журналистка_S" />
+      <node id="певец_S" label="певец_S" />
+      <node id="артистка_S" label="артистка_S" />
+      <node id="киноактриса_S" label="киноактриса_S" />
+      <node id="артист_S" label="артист_S" />
+      <node id="музыкант_S" label="музыкант_S" />
+      <node id="примадонна_S" label="примадонна_S" />
+      <node id="композитор_S" label="композитор_S" />
+      <node id="декламаторша_S" label="декламаторша_S" />
+      <node id="солистка_S" label="солистка_S" />
+      <node id="дуэт_S" label="дуэт_S" />
+      <node id="романс_S" label="романс_S" />
+      <node id="скрипач_S" label="скрипач_S" />
+      <node id="дебютантка_S" label="дебютантка_S" />
+      <node id="пианист_S" label="пианист_S" />
+      <node id="танцовщик_S" label="танцовщик_S" />
+      <node id="кинозвезда_S" label="кинозвезда_S" />
+      <node id="певичка_S" label="певичка_S" />
+    </nodes>
+    <edges>
+      <edge id="0" source="фея_S" target="волшебница_S" />
+      <edge id="1" source="фея_S" target="волшебник_S" />
+      <edge id="2" source="фея_S" target="карабос_S" />
+      <edge id="3" source="фея_S" target="здоровьичка_S" />
+      <edge id="4" source="фея_S" target="эльф_S" />
+      <edge id="5" source="фея_S" target="колдунья_S" />
+      <edge id="6" source="фея_S" target="золушка_S" />
+      <edge id="7" source="фея_S" target="вольшебник_S" />
+      <edge id="8" source="фея_S" target="красавица_S" />
+      <edge id="9" source="фея_S" target="нимфа_S" />
+      <edge id="10" source="волшебница_S" target="волшебник_S" />
+      <edge id="11" source="волшебница_S" target="волшебница_S" />
+      <edge id="12" source="карабос_S" target="чиен_S" />
+      <edge id="13" source="карабос_S" target="перель_S" />
+      <edge id="14" source="карабос_S" target="крестная_S" />
+      <edge id="15" source="карабос_S" target="мелюзин_S" />
+      <edge id="16" source="карабос_S" target="вольшебник_S" />
+      <edge id="17" source="карабос_S" target="карабос_S" />
+      <edge id="18" source="здоровьичка_S" target="здоровьице_S" />
+      <edge id="19" source="здоровьичка_S" target="авушка_S" />
+      <edge id="20" source="здоровьичка_S" target="божинька_S" />
+      <edge id="21" source="здоровьичка_S" target="челэк_S" />
+      <edge id="22" source="здоровьичка_S" target="здоровьичка_S" />
+      <edge id="23" source="колдунья_S" target="ведьма_S" />
+      <edge id="24" source="колдунья_S" target="колдун_S" />
+      <edge id="25" source="колдунья_S" target="колдунья_S" />
+      <edge id="26" source="красавица_S" target="красотка_S" />
+      <edge id="27" source="красавица_S" target="девушка_S" />
+      <edge id="28" source="красавица_S" target="девица_S" />
+      <edge id="29" source="красавица_S" target="танцовщица_S" />
+      <edge id="30" source="красавица_S" target="красавец_S" />
+      <edge id="31" source="красавица_S" target="принцесса_S" />
+      <edge id="32" source="красавица_S" target="брюнетка_S" />
+      <edge id="33" source="красавица_S" target="француженка_S" />
+      <edge id="34" source="красавица_S" target="американка_S" />
+      <edge id="35" source="красавица_S" target="блондинка_S" />
+      <edge id="36" source="красавица_S" target="немка_S" />
+      <edge id="37" source="красавица_S" target="поэтесса_S" />
+      <edge id="38" source="красавица_S" target="певица_S" />
+      <edge id="39" source="красавица_S" target="красавица_S" />
+      <edge id="40" source="здоровьице_S" target="авушка_S" />
+      <edge id="41" source="здоровьице_S" target="здоровьечко_S" />
+      <edge id="42" source="здоровьице_S" target="челэк_S" />
+      <edge id="43" source="здоровьице_S" target="здоровьице_S" />
+      <edge id="44" source="ведьма_S" target="колдун_S" />
+      <edge id="45" source="красотка_S" target="девица_S" />
+      <edge id="46" source="красотка_S" target="девушка_S" />
+      <edge id="47" source="красотка_S" target="красотка_S" />
+      <edge id="48" source="девушка_S" target="женщина_S" />
+      <edge id="49" source="девушка_S" target="девица_S" />
+      <edge id="50" source="девушка_S" target="юноша_S" />
+      <edge id="51" source="девушка_S" target="девочка_S" />
+      <edge id="52" source="девушка_S" target="парень_S" />
+      <edge id="53" source="девушка_S" target="барышня_S" />
+      <edge id="54" source="девушка_S" target="мальчик_S" />
+      <edge id="55" source="девушка_S" target="блондинка_S" />
+      <edge id="56" source="девушка_S" target="паренек_S" />
+      <edge id="57" source="девушка_S" target="мужчина_S" />
+      <edge id="58" source="девушка_S" target="девчонка_S" />
+      <edge id="59" source="девушка_S" target="девчушка_S" />
+      <edge id="60" source="девушка_S" target="дама_S" />
+      <edge id="61" source="девушка_S" target="японка_S" />
+      <edge id="62" source="девушка_S" target="дамочка_S" />
+      <edge id="63" source="девушка_S" target="блондиночка_S" />
+      <edge id="64" source="девушка_S" target="брюнетка_S" />
+      <edge id="65" source="девушка_S" target="подросток_S" />
+      <edge id="66" source="девушка_S" target="мальчуган_S" />
+      <edge id="67" source="девушка_S" target="девка_S" />
+      <edge id="68" source="девушка_S" target="парнишка_S" />
+      <edge id="69" source="девушка_S" target="чукчанка_S" />
+      <edge id="70" source="девушка_S" target="китаянка_S" />
+      <edge id="71" source="девушка_S" target="шатенка_S" />
+      <edge id="72" source="девушка_S" target="брюнеточка_S" />
+      <edge id="73" source="девушка_S" target="француженка_S" />
+      <edge id="74" source="девушка_S" target="девушка_S" />
+      <edge id="75" source="девица_S" target="барышня_S" />
+      <edge id="76" source="девица_S" target="дама_S" />
+      <edge id="77" source="девица_S" target="женщина_S" />
+      <edge id="78" source="девица_S" target="юноша_S" />
+      <edge id="79" source="девица_S" target="дамочка_S" />
+      <edge id="80" source="девица_S" target="девчонка_S" />
+      <edge id="81" source="девица_S" target="парень_S" />
+      <edge id="82" source="девица_S" target="блондинка_S" />
+      <edge id="83" source="девица_S" target="девочка_S" />
+      <edge id="84" source="девица_S" target="девка_S" />
+      <edge id="85" source="девица_S" target="девчушка_S" />
+      <edge id="86" source="девица_S" target="мужчина_S" />
+      <edge id="87" source="девица_S" target="бабенка_S" />
+      <edge id="88" source="девица_S" target="брюнетка_S" />
+      <edge id="89" source="девица_S" target="немка_S" />
+      <edge id="90" source="девица_S" target="мальчик_S" />
+      <edge id="91" source="девица_S" target="паренек_S" />
+      <edge id="92" source="девица_S" target="японка_S" />
+      <edge id="93" source="девица_S" target="вдовушка_S" />
+      <edge id="94" source="девица_S" target="девица_S" />
+      <edge id="95" source="танцовщица_S" target="балерина_S" />
+      <edge id="96" source="танцовщица_S" target="актриса_S" />
+      <edge id="97" source="танцовщица_S" target="певица_S" />
+      <edge id="98" source="танцовщица_S" target="танцор_S" />
+      <edge id="99" source="танцовщица_S" target="пианистка_S" />
+      <edge id="100" source="красавец_S" target="блондин_S" />
+      <edge id="101" source="красавец_S" target="брюнет_S" />
+      <edge id="102" source="принцесса_S" target="принц_S" />
+      <edge id="103" source="принцесса_S" target="королева_S" />
+      <edge id="104" source="принцесса_S" target="герцогиня_S" />
+      <edge id="105" source="принцесса_S" target="король_S" />
+      <edge id="106" source="принцесса_S" target="луиза_S" />
+      <edge id="107" source="брюнетка_S" target="блондинка_S" />
+      <edge id="108" source="брюнетка_S" target="брюнет_S" />
+      <edge id="109" source="брюнетка_S" target="шатенка_S" />
+      <edge id="110" source="брюнетка_S" target="блондин_S" />
+      <edge id="111" source="брюнетка_S" target="брюнетка_S" />
+      <edge id="112" source="француженка_S" target="немка_S" />
+      <edge id="113" source="француженка_S" target="еврейка_S" />
+      <edge id="114" source="француженка_S" target="англичанка_S" />
+      <edge id="115" source="француженка_S" target="гречанка_S" />
+      <edge id="116" source="француженка_S" target="американка_S" />
+      <edge id="117" source="француженка_S" target="итальянка_S" />
+      <edge id="118" source="француженка_S" target="француженка_S" />
+      <edge id="119" source="американка_S" target="немка_S" />
+      <edge id="120" source="американка_S" target="англичанка_S" />
+      <edge id="121" source="американка_S" target="еврейка_S" />
+      <edge id="122" source="американка_S" target="американка_S" />
+      <edge id="123" source="блондинка_S" target="шатенка_S" />
+      <edge id="124" source="блондинка_S" target="блондин_S" />
+      <edge id="125" source="блондинка_S" target="брюнет_S" />
+      <edge id="126" source="блондинка_S" target="девочка_S" />
+      <edge id="127" source="блондинка_S" target="женщина_S" />
+      <edge id="128" source="блондинка_S" target="юноша_S" />
+      <edge id="129" source="блондинка_S" target="блондинка_S" />
+      <edge id="130" source="немка_S" target="еврейка_S" />
+      <edge id="131" source="немка_S" target="англичанка_S" />
+      <edge id="132" source="немка_S" target="гречанка_S" />
+      <edge id="133" source="немка_S" target="итальянка_S" />
+      <edge id="134" source="немка_S" target="грузинка_S" />
+      <edge id="135" source="немка_S" target="чешка_S" />
+      <edge id="136" source="немка_S" target="турчанка_S" />
+      <edge id="137" source="немка_S" target="дочь_S" />
+      <edge id="138" source="немка_S" target="немка_S" />
+      <edge id="139" source="поэтесса_S" target="художница_S" />
+      <edge id="140" source="поэтесса_S" target="писательница_S" />
+      <edge id="141" source="поэтесса_S" target="поэт_S" />
+      <edge id="142" source="поэтесса_S" target="актриса_S" />
+      <edge id="143" source="поэтесса_S" target="певица_S" />
+      <edge id="144" source="поэтесса_S" target="журналистка_S" />
+      <edge id="145" source="поэтесса_S" target="пианистка_S" />
+      <edge id="146" source="певица_S" target="певец_S" />
+      <edge id="147" source="певица_S" target="актриса_S" />
+      <edge id="148" source="певица_S" target="артистка_S" />
+      <edge id="149" source="певица_S" target="балерина_S" />
+      <edge id="150" source="певица_S" target="киноактриса_S" />
+      <edge id="151" source="певица_S" target="пианистка_S" />
+      <edge id="152" source="певица_S" target="артист_S" />
+      <edge id="153" source="певица_S" target="музыкант_S" />
+      <edge id="154" source="певица_S" target="примадонна_S" />
+      <edge id="155" source="певица_S" target="композитор_S" />
+      <edge id="156" source="певица_S" target="декламаторша_S" />
+      <edge id="157" source="певица_S" target="солистка_S" />
+      <edge id="158" source="певица_S" target="дуэт_S" />
+      <edge id="159" source="певица_S" target="журналистка_S" />
+      <edge id="160" source="певица_S" target="романс_S" />
+      <edge id="161" source="певица_S" target="скрипач_S" />
+      <edge id="162" source="певица_S" target="дебютантка_S" />
+      <edge id="163" source="певица_S" target="пианист_S" />
+      <edge id="164" source="певица_S" target="танцовщик_S" />
+      <edge id="165" source="певица_S" target="кинозвезда_S" />
+      <edge id="166" source="певица_S" target="певичка_S" />
+      <edge id="167" source="певица_S" target="певица_S" />
+      <edge id="168" source="женщина_S" target="юноша_S" />
+      <edge id="169" source="женщина_S" target="девочка_S" />
+      <edge id="170" source="женщина_S" target="парень_S" />
+      <edge id="171" source="женщина_S" target="барышня_S" />
+      <edge id="172" source="женщина_S" target="мужчина_S" />
+      <edge id="173" source="женщина_S" target="дама_S" />
+      <edge id="174" source="женщина_S" target="дамочка_S" />
+      <edge id="175" source="женщина_S" target="подросток_S" />
+      <edge id="176" source="женщина_S" target="чукчанка_S" />
+      <edge id="177" source="женщина_S" target="женщина_S" />
+      <edge id="178" source="женщина_S" target="еврейка_S" />
+      <edge id="179" source="юноша_S" target="девочка_S" />
+      <edge id="180" source="юноша_S" target="парень_S" />
+      <edge id="181" source="юноша_S" target="барышня_S" />
+      <edge id="182" source="юноша_S" target="мальчик_S" />
+      <edge id="183" source="юноша_S" target="паренек_S" />
+      <edge id="184" source="юноша_S" target="мужчина_S" />
+      <edge id="185" source="юноша_S" target="подросток_S" />
+      <edge id="186" source="юноша_S" target="юноша_S" />
+      <edge id="187" source="девочка_S" target="барышня_S" />
+      <edge id="188" source="девочка_S" target="мальчик_S" />
+      <edge id="189" source="девочка_S" target="паренек_S" />
+      <edge id="190" source="девочка_S" target="девчонка_S" />
+      <edge id="191" source="девочка_S" target="девчушка_S" />
+      <edge id="192" source="девочка_S" target="подросток_S" />
+      <edge id="193" source="девочка_S" target="мальчуган_S" />
+      <edge id="194" source="девочка_S" target="девочка_S" />
+      <edge id="195" source="парень_S" target="мальчик_S" />
+      <edge id="196" source="парень_S" target="паренек_S" />
+      <edge id="197" source="парень_S" target="мужчина_S" />
+      <edge id="198" source="парень_S" target="девчонка_S" />
+      <edge id="199" source="парень_S" target="девчушка_S" />
+      <edge id="200" source="парень_S" target="дамочка_S" />
+      <edge id="201" source="парень_S" target="мальчуган_S" />
+      <edge id="202" source="парень_S" target="девка_S" />
+      <edge id="203" source="парень_S" target="парнишка_S" />
+      <edge id="204" source="парень_S" target="парень_S" />
+      <edge id="205" source="парень_S" target="бабенка_S" />
+      <edge id="206" source="барышня_S" target="паренек_S" />
+      <edge id="207" source="барышня_S" target="девчонка_S" />
+      <edge id="208" source="барышня_S" target="девчушка_S" />
+      <edge id="209" source="барышня_S" target="дама_S" />
+      <edge id="210" source="барышня_S" target="дамочка_S" />
+      <edge id="211" source="барышня_S" target="брюнеточка_S" />
+      <edge id="212" source="барышня_S" target="барышня_S" />
+      <edge id="213" source="барышня_S" target="вдовушка_S" />
+      <edge id="214" source="мальчик_S" target="паренек_S" />
+      <edge id="215" source="мальчик_S" target="девчонка_S" />
+      <edge id="216" source="мальчик_S" target="девчушка_S" />
+      <edge id="217" source="мальчик_S" target="подросток_S" />
+      <edge id="218" source="мальчик_S" target="мальчуган_S" />
+      <edge id="219" source="мальчик_S" target="парнишка_S" />
+      <edge id="220" source="мальчик_S" target="мальчик_S" />
+      <edge id="221" source="паренек_S" target="девчонка_S" />
+      <edge id="222" source="паренек_S" target="девчушка_S" />
+      <edge id="223" source="паренек_S" target="мальчуган_S" />
+      <edge id="224" source="паренек_S" target="парнишка_S" />
+      <edge id="225" source="паренек_S" target="бабенка_S" />
+      <edge id="226" source="паренек_S" target="паренек_S" />
+      <edge id="227" source="мужчина_S" target="мужчина_S" />
+      <edge id="228" source="девчонка_S" target="девчушка_S" />
+      <edge id="229" source="девчонка_S" target="дамочка_S" />
+      <edge id="230" source="девчонка_S" target="подросток_S" />
+      <edge id="231" source="девчонка_S" target="мальчуган_S" />
+      <edge id="232" source="девчонка_S" target="девка_S" />
+      <edge id="233" source="девчонка_S" target="парнишка_S" />
+      <edge id="234" source="девчонка_S" target="девчонка_S" />
+      <edge id="235" source="девчонка_S" target="бабенка_S" />
+      <edge id="236" source="девчушка_S" target="мальчуган_S" />
+      <edge id="237" source="девчушка_S" target="парнишка_S" />
+      <edge id="238" source="девчушка_S" target="девчушка_S" />
+      <edge id="239" source="девчушка_S" target="бабенка_S" />
+      <edge id="240" source="дама_S" target="дамочка_S" />
+      <edge id="241" source="дама_S" target="дама_S" />
+      <edge id="242" source="японка_S" target="китаянка_S" />
+      <edge id="243" source="японка_S" target="японка_S" />
+      <edge id="244" source="дамочка_S" target="дамочка_S" />
+      <edge id="245" source="дамочка_S" target="бабенка_S" />
+      <edge id="246" source="подросток_S" target="мальчуган_S" />
+      <edge id="247" source="мальчуган_S" target="парнишка_S" />
+      <edge id="248" source="девка_S" target="парнишка_S" />
+      <edge id="249" source="девка_S" target="девка_S" />
+      <edge id="250" source="девка_S" target="бабенка_S" />
+      <edge id="251" source="парнишка_S" target="бабенка_S" />
+      <edge id="252" source="чукчанка_S" target="еврейка_S" />
+      <edge id="253" source="шатенка_S" target="блондин_S" />
+      <edge id="254" source="шатенка_S" target="брюнет_S" />
+      <edge id="255" source="шатенка_S" target="шатенка_S" />
+      <edge id="256" source="балерина_S" target="актриса_S" />
+      <edge id="257" source="балерина_S" target="танцор_S" />
+      <edge id="258" source="балерина_S" target="пианистка_S" />
+      <edge id="259" source="балерина_S" target="художница_S" />
+      <edge id="260" source="балерина_S" target="артистка_S" />
+      <edge id="261" source="балерина_S" target="балерина_S" />
+      <edge id="262" source="балерина_S" target="киноактриса_S" />
+      <edge id="263" source="балерина_S" target="артист_S" />
+      <edge id="264" source="балерина_S" target="примадонна_S" />
+      <edge id="265" source="балерина_S" target="танцовщик_S" />
+      <edge id="266" source="актриса_S" target="пианистка_S" />
+      <edge id="267" source="актриса_S" target="художница_S" />
+      <edge id="268" source="актриса_S" target="писательница_S" />
+      <edge id="269" source="актриса_S" target="актриса_S" />
+      <edge id="270" source="актриса_S" target="певец_S" />
+      <edge id="271" source="актриса_S" target="артистка_S" />
+      <edge id="272" source="актриса_S" target="киноактриса_S" />
+      <edge id="273" source="актриса_S" target="артист_S" />
+      <edge id="274" source="актриса_S" target="музыкант_S" />
+      <edge id="275" source="актриса_S" target="примадонна_S" />
+      <edge id="276" source="актриса_S" target="композитор_S" />
+      <edge id="277" source="актриса_S" target="солистка_S" />
+      <edge id="278" source="актриса_S" target="скрипач_S" />
+      <edge id="279" source="актриса_S" target="дебютантка_S" />
+      <edge id="280" source="актриса_S" target="пианист_S" />
+      <edge id="281" source="актриса_S" target="танцовщик_S" />
+      <edge id="282" source="актриса_S" target="кинозвезда_S" />
+      <edge id="283" source="танцор_S" target="певец_S" />
+      <edge id="284" source="танцор_S" target="артист_S" />
+      <edge id="285" source="танцор_S" target="музыкант_S" />
+      <edge id="286" source="танцор_S" target="скрипач_S" />
+      <edge id="287" source="танцор_S" target="пианист_S" />
+      <edge id="288" source="танцор_S" target="танцовщик_S" />
+      <edge id="289" source="пианистка_S" target="художница_S" />
+      <edge id="290" source="пианистка_S" target="пианистка_S" />
+      <edge id="291" source="пианистка_S" target="артистка_S" />
+      <edge id="292" source="пианистка_S" target="киноактриса_S" />
+      <edge id="293" source="пианистка_S" target="композитор_S" />
+      <edge id="294" source="пианистка_S" target="скрипач_S" />
+      <edge id="295" source="пианистка_S" target="пианист_S" />
+      <edge id="296" source="блондин_S" target="брюнет_S" />
+      <edge id="297" source="блондин_S" target="блондин_S" />
+      <edge id="298" source="брюнет_S" target="брюнет_S" />
+      <edge id="299" source="принц_S" target="герцогиня_S" />
+      <edge id="300" source="принц_S" target="король_S" />
+      <edge id="301" source="королева_S" target="герцогиня_S" />
+      <edge id="302" source="королева_S" target="король_S" />
+      <edge id="303" source="герцогиня_S" target="король_S" />
+      <edge id="304" source="еврейка_S" target="англичанка_S" />
+      <edge id="305" source="еврейка_S" target="гречанка_S" />
+      <edge id="306" source="еврейка_S" target="еврейка_S" />
+      <edge id="307" source="еврейка_S" target="грузинка_S" />
+      <edge id="308" source="еврейка_S" target="чешка_S" />
+      <edge id="309" source="англичанка_S" target="гречанка_S" />
+      <edge id="310" source="англичанка_S" target="англичанка_S" />
+      <edge id="311" source="гречанка_S" target="гречанка_S" />
+      <edge id="312" source="гречанка_S" target="грузинка_S" />
+      <edge id="313" source="итальянка_S" target="итальянка_S" />
+      <edge id="314" source="итальянка_S" target="грузинка_S" />
+      <edge id="315" source="художница_S" target="писательница_S" />
+      <edge id="316" source="художница_S" target="журналистка_S" />
+      <edge id="317" source="художница_S" target="артистка_S" />
+      <edge id="318" source="художница_S" target="киноактриса_S" />
+      <edge id="319" source="писательница_S" target="журналистка_S" />
+      <edge id="320" source="писательница_S" target="киноактриса_S" />
+      <edge id="321" source="поэт_S" target="певец_S" />
+      <edge id="322" source="поэт_S" target="артист_S" />
+      <edge id="323" source="поэт_S" target="музыкант_S" />
+      <edge id="324" source="поэт_S" target="композитор_S" />
+      <edge id="325" source="журналистка_S" target="киноактриса_S" />
+      <edge id="326" source="журналистка_S" target="журналистка_S" />
+      <edge id="327" source="певец_S" target="артистка_S" />
+      <edge id="328" source="певец_S" target="артист_S" />
+      <edge id="329" source="певец_S" target="музыкант_S" />
+      <edge id="330" source="певец_S" target="примадонна_S" />
+      <edge id="331" source="певец_S" target="композитор_S" />
+      <edge id="332" source="певец_S" target="дуэт_S" />
+      <edge id="333" source="певец_S" target="романс_S" />
+      <edge id="334" source="певец_S" target="скрипач_S" />
+      <edge id="335" source="певец_S" target="пианист_S" />
+      <edge id="336" source="певец_S" target="танцовщик_S" />
+      <edge id="337" source="артистка_S" target="киноактриса_S" />
+      <edge id="338" source="артистка_S" target="артист_S" />
+      <edge id="339" source="артистка_S" target="примадонна_S" />
+      <edge id="340" source="артистка_S" target="композитор_S" />
+      <edge id="341" source="артистка_S" target="скрипач_S" />
+      <edge id="342" source="киноактриса_S" target="кинозвезда_S" />
+      <edge id="343" source="артист_S" target="музыкант_S" />
+      <edge id="344" source="артист_S" target="примадонна_S" />
+      <edge id="345" source="артист_S" target="композитор_S" />
+      <edge id="346" source="артист_S" target="скрипач_S" />
+      <edge id="347" source="артист_S" target="пианист_S" />
+      <edge id="348" source="артист_S" target="танцовщик_S" />
+      <edge id="349" source="музыкант_S" target="композитор_S" />
+      <edge id="350" source="музыкант_S" target="скрипач_S" />
+      <edge id="351" source="музыкант_S" target="пианист_S" />
+      <edge id="352" source="музыкант_S" target="танцовщик_S" />
+      <edge id="353" source="композитор_S" target="скрипач_S" />
+      <edge id="354" source="композитор_S" target="пианист_S" />
+      <edge id="355" source="композитор_S" target="танцовщик_S" />
+      <edge id="356" source="дуэт_S" target="романс_S" />
+      <edge id="357" source="скрипач_S" target="пианист_S" />
+      <edge id="358" source="пианист_S" target="танцовщик_S" />
+    </edges>
+  </graph>
+</gexf>
