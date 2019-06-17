@@ -24,7 +24,7 @@ bot.set_webhook(url="https://stormy-bastion-94812.herokuapp.com/bot")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.send_message(message.chat.id, "Привет! Вот список комманд: \n"
+    bot.send_message(message.chat.id, "Привет! Вот список команд: \n"
                      + "/about — что я такое?,\n"
                      + "/commands — список команд,\n"
                      + "/lets_play - ИГРАТЬ,\n"
@@ -35,6 +35,10 @@ def send_welcome(message):
 @bot.message_handler(commands=['about'])
 def tell_about_yourself(message):
     bot.send_message(message.chat.id, "Я бот, генерирующий предложения! \n"
+                     + "Со мной можно сыграть в игру: \n"
+                     + "цитата Стругацких или моя фраза? \n"
+                     + "Чтобы начать нажми /lets_play \n"
+                     + "Чтобы увидеть варианты нажми рядом с микрофоном \n"
                      + "@tudum_tss - написать моей создательнице")
 
 
@@ -48,6 +52,7 @@ def tell_about_help(message):
     thestring = now + '/' + then
     bot.send_message(message.chat.id, "Отличная игра!\n"
                      + " Вы дали {} правильных ответов".format(thestring))
+    bot.send_message(message.chat.id, "Сыграем еще? /lets_play")
 
 
 @bot.message_handler(commands=['commands'])
@@ -121,7 +126,7 @@ def game():
     if decision == 1:
         with open("gen_text.txt", 'r', encoding='utf-8') as g:
             content = g.readlines()
-            r_r = random.randint(0, 13484)
+            r_r = random.randint(0, 118033)
             exx = content[r_r]
             return exx, decision
             exx = content[r_r]
